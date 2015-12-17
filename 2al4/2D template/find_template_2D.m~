@@ -1,0 +1,12 @@
+function [yIndex xIndex] = find_template_2D( template, img )
+% TODO: Find template in img and return [y x] location
+% NOTE: Turn off all output from inside the function before submitting!
+    c = normxcorr2(template, img);
+%     [maxYValue, yRawIndex] = max(c);
+%     [maxXValue, XRawIndex] = max(c);
+%     maxValue = find(c==(max(max(c))));
+%     indexes = ind2sub(size(c),maxValue)
+    [maxV,I] = max(M(:));
+    yIndex = yRawIndex;
+    xIndex = XRawIndex;
+end
