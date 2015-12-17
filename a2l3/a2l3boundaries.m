@@ -2,7 +2,7 @@
 % pkg load image;
 
 %% Load an image
-img = imread('img/fall-leaves.png');  % also available: peppers.png, mandrill.png
+img = imread('fall-leaves.png');  % also available: peppers.png, mandrill.png
 imshow(img);
 
 %% TODO: Create a Gaussian filter

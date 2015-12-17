@@ -2,7 +2,7 @@
 % pkg load image;
 
 %% Read an image
-img = imread('img/bycicle.png');  % also try: brooklyn-bridge.png, penny-farthing.png
+img = imread('bycicle.png');  % also try: brooklyn-bridge.png, penny-farthing.png
 % imshow(img);
 
 %% TODO: Add salt & pepper noise
